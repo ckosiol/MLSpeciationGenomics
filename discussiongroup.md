@@ -1,14 +1,11 @@
 ## Discussion group
-## Challenges and problems in phylogenomics
+## Short and long time scales in Speciation Genomics
 
-MIC-Phy2021 brings together researchers working on very different questions and with diverse research interests. We have participants working on theoretical models, computational tools, statistical methods, and empirical questions. Thus, this meeting is an excellent opportunity for us to discuss the main challenges and problems that phylogenomics is currently facing.
+MLSpeciation Genomics brings together researchers working on very different questions and with diverse research interests. We have participants working on theoretical models, computational tools, statistical methods, and empirical questions. Thus, this meeting is an excellent opportunity for us to discuss the main challenges and problems that speciation genomics is currently facing.
 
-We created a list of four topics that, while not mutually exclusive, categorize quite well four fronts of research in phylogenomics:
-
-1. Are the existing mathematical models realistic enough? What are the consequences of oversimplification? Do we need more or more complex models of evolution?
-
-2. Do we need more data? What kind of data? Can we cope with the growth of available data?
-
-3. What are the main computational limitations in phylogenomic studies? Do we need improved computational methods or more power?
-
-4. Are we maximizing the information contained in the data? How likely is it that we are increasingly confident of an incorrect result? Should we focus on developing advanced inferential methods or exploring heuristics and approximate methods?
+How new species emerge is one of the big questions in evolutionary biology. 
+Speciation genomics investigates the genetic basis of this process. Until recently researchers were only able to sequence a few individuals at a single time-point. Yet, with the growing affordability of genome sequencing, it is now possible to consider multiple individuals at multiple points in time. 
+ 
+These multiple time-points could include samples from Natural History Museums, they could be multiple generations of a population housed in controlled laboratory environments or diverse samples collected from the wild. A collaborative initiative between the universities in Bonn and St Andrews will bring researchers together to work on temporal genomic data from these diverse sources: museums, laboratories, and the wild. We will establish methodologies capable of harnessing these temporal genomic data sets to address fundamental questions about the process of speciation. 
+ 
+This temporal-spatio perspective which unfolds the speciation process over time as opposed to a single time-point, not only lets us understand the evolutionary past, it also has the potential to predict future changes of biodiversity.
