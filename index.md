@@ -3,23 +3,17 @@ layout: default
 ---
 ![](/assets/img/banner.png)
 
-We are pleased to announce that the **Mathematical, Inferential, and Computational Phylogenomics** (MIC-Phy) meeting will take place online from 15th to 17th February 2021.
+We are pleased to announce that the **Short and long timescales in Speciation Genomics: Machine Learning approaches** (MLSpeciationGenomics) meeting will take place in St Andrews from 24th to 27th June 2025.
 
-The MIC-Phy meeting intends to stimulate a broader discussion on novel phylogenomic models. The keynote talks will focus on the computational and statistical aspects of using large and heterogeneous sequences to build species trees and perform inference.
+The MLGenomics meeting intends to stimulate a broader discussion on novel phylogenomic models. The keynote talks will focus on the computational and statistical aspects of using large and heterogeneous sequences to build species trees and perform inference.
 
-The keynote speakers are:
-* [Ziheng Yang](http://abacus.gene.ucl.ac.uk/ziheng/cv.html), University College London
-, UK
-* [Tracy Heath](https://www.eeob.iastate.edu/people/tracy-heath), Iowa State University of Science and Technology, USA
-
-
-Contributed talks will be selected from submitted abstracts. We welcome submissions on recent advances in phylogenetic method development (both theoretical and computational), as well as key insights into new or old data gained using novel methods.
-
-As part of this meeting, we will hold a small virtual workshop entitled **New approaches to phylogenetic inference**. The main focus will be polymorphism-aware phylogenetic models and practical exercises in the programs RevBayes and IQ-TREE.
+As part of this meeting, we will hold workshops. The main focus will be Museum Genomics, Phylogenomics and Machine Learning exercises.
 
 
 ## Important dates
 
-* **15th January 2021**: Deadline for workshop registration and abstract submission
-* **1st February 2021**: Notification of oral/poster presentation and workshop acceptance
-* **9th February 2021**: Registration and poster submission deadline
+* **1st March 2025**: Webpage goes live
+* **1st April 2025**: Deadline for applications
+* **15th April 2025**: Notification of praticipants
+* **24th April 2025**: Deadline for reduced price accomodation booking 
+* **24th May 2025**: Registration deadline
