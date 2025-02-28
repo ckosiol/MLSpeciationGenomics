@@ -13,7 +13,7 @@ As part of this meeting, we will hold workshops. The main focus will be Museum G
 ## Important dates
 
 * **1st March 2025**: Webpage goes live
-* **1st April 2025**: Deadline for applications
-* **15th April 2025**: Notification of praticipants
+* **10th April 2025**: Deadline for abstracts
+* **17th April 2025**: Notification for abstracts
 * **24th April 2025**: Deadline for reduced price accomodation booking 
-* **24th May 2025**: Registration deadline
+* **2th June 2025**: Registration deadline
