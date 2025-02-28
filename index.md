@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-![](st-andrews-harbour__3__banner.jpg)
+![](st-andrews-castle-sands.jpg)
 
 We are pleased to announce that the **Short and long timescales in Speciation Genomics: Machine Learning approaches** (MLSpeciationGenomics) meeting will take place in St Andrews from 24th to 27th June 2025.
 
