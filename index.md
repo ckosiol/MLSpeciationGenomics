@@ -20,7 +20,7 @@ To submit an abstract please send an email to: MLSpeciationGenomics@gmail.com
 *  Student Participants £30
 *  Academic/ Staff/ Industry Participants £70
 
-*  https://www.eventsforce.net/standrews/264/home
+*  Register at https://www.eventsforce.net/standrews/264/home
 
 
 
