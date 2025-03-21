@@ -9,10 +9,20 @@ How new species emerge is one of the big questions in evolutionary biology. Spec
 
 These multiple time-points could include samples from Natural History Museums, they could be multiple generations of a population housed in controlled laboratory environments or diverse samples collected from the wild. This workshop will bring researchers together to make the best use of the new data, we will have talks as well as hands-on sessions on museum genomics, phylogenomics and machine learning methods.
 
+## Faculty 
+Nick Bailey, Rui Borges (University of St Andrews); Svitlana Braichenko (University of Edinburgh); Martin Kapun (Natural History Museum of Vienna); Carolin Kosiol (St Andrews);  Manolo Perez (Imperial College London); Antonio Pacheco; Mike Ritchie (St Andrews); Alexander Suh (Research Museum Koenig Bonn) among others.
+
 ## Abstract submission
 
-
 To submit an abstract please send an email to: MLSpeciationGenomics@gmail.com
+
+## Registration
+*  Student Participants £30
+*  Academic/ Staff/ Industry Participants £70
+
+*  https://www.eventsforce.net/standrews/264/home
+
+
 
 
 ## Important dates
