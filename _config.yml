@@ -1,0 +1,30 @@
+theme: jekyll-theme-minimal
+title: MLSpeciationGenomics 2025 
+description: This is the webpage for the MLSpeciation Genomics meeting in St Andrews! 
+show_downloads: false
+navigation:
+  - title: Home
+    url: /
+  - title: Program
+    url: program
+  - title: Workshop
+    url: workshop
+  - title: Registration
+    url: registration
+  - title: Contributed talks
+    url: talks
+  - title: Posters
+    url: posters
+  - title: Discussion group
+    url: discussiongroup  
+  - title: Scientific committee
+    url: scientific_committee
+  - title: Organizing committee
+    url: organizers
+  - title: Participants
+    url: participants
+  - title: Contacts
+    url: contacts
+  - title: Sponsors
+    url: funding
+  
