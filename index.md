@@ -5,15 +5,20 @@ layout: default
 
 We are pleased to announce that the **Short and long timescales in Speciation Genomics: Machine Learning approaches** (MLSpeciationGenomics) meeting will take place in St Andrews from 24th to 27th June 2025.
 
-The MLGenomics meeting intends to stimulate a broader discussion on novel phylogenomic models. The keynote talks will focus on the computational and statistical aspects of using large and heterogeneous sequences to build species trees and perform inference.
+How new species emerge is one of the big questions in evolutionary biology. Speciation genomics investigates the genetic basis of this process. Until recently researchers were only able to sequence a few individuals at a single time-point. Yet, with the growing affordability of genome sequencing, it is now possible to consider multiple individuals at multiple points in time.
 
-As part of this meeting, we will hold workshops. The main focus will be Museum Genomics, Phylogenomics and Machine Learning exercises.
+These multiple time-points could include samples from Natural History Museums, they could be multiple generations of a population housed in controlled laboratory environments or diverse samples collected from the wild. This workshop will bring researchers together to make the best use of the new data, we will have talks as well as hands-on sessions on museum genomics, phylogenomics and machine learning methods.
+
+## Abstract submission
+
+
+To submit an abstract please send an email to: MLSpeciationGenomics@gmail.com
 
 
 ## Important dates
 
-* **1st March 2025**: Webpage goes live
-* **10th April 2025**: Deadline for abstracts
+* **21 March 2025**: Webpage goes live
+* **11th April 2025**: Deadline for abstracts
 * **17th April 2025**: Notification for abstracts
 * **24th April 2025**: Deadline for reduced price accomodation booking 
 * **2th June 2025**: Registration deadline
