@@ -4,7 +4,7 @@ layout: default
 ![](st-andrews-harbour__3__banner.jpg)
 
 ## About the Workshop
-We are pleased to announce that the **Short and long timescales in Speciation Genomics: Machine Learning approaches** (MLSpeciationGenomics) meeting will take place in St Andrews from 24th to 27th June 2025.
+We are pleased to announce that the **Short and Long Timescales in Speciation Genomics: Machine Learning approaches** (MLSpeciationGenomics) meeting will take place in St Andrews from 24th to 27th June 2025.
 
 How new species emerge is one of the big questions in evolutionary biology. Speciation genomics investigates the genetic basis of this process. Until recently researchers were only able to sequence a few individuals at a single time-point. Yet, with the growing affordability of genome sequencing, it is now possible to consider multiple individuals at multiple points in time._
 
