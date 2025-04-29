@@ -29,7 +29,7 @@ To submit an abstract please send an email to: MLSpeciationGenomics@gmail.com
 ## Important dates
 
 * **21 March 2025**: Webpage goes live
-* **11th April 2025**: Deadline for abstracts
+* ~11th April2025~ **13th May 2025**: Deadline for abstracts
 * **17th April 2025**: Notification for abstracts
 * **24th April 2025**: Deadline for reduced price accomodation booking 
 * **2th June 2025**: Registration deadline
