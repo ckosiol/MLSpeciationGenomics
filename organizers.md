@@ -1,6 +1,12 @@
 ## Organizing committee
 
-* [Carolin Kosiol](https://risweb.st-andrews.ac.uk/portal/en/persons/carolin-kosiol(c9f40ab1-9f6d-4739-b827-f572db24bbd5).html), University of St Andrews, UK
-* [Rui Borges](https://www.researchgate.net/profile/Rui_Borges4), Vetmeduni Vienna, Austria
-* [Carolina Barata](https://synergy.st-andrews.ac.uk/cbd/person/cdcbrb/), University of St Andrews, UK
-* [Lynette Mikula](https://synergy.st-andrews.ac.uk/cbd/person/lcm29/), University of St Andrews, UK
+* [Carolin Kosiol](https://biology.st-andrews.ac.uk/kosiol-lab/), University of St Andrews, UK
+* [Rui Borges](https://mrborges23.github.io/mypage/), University of St Andrews, UK
+* [Nick Bailey], University of St Andrews, UK
+* [Antonio Pacheco], University of St Andrews, UK
+* [Svitlana Braichenko](https://institute-genetics-cancer.ed.ac.uk/research/research-groups-a-z/ponting-group), University of Edinburgh, UK
+* [Mike Ritchie](https://www.st-andrews.ac.uk/biology/people/mgr/), University of St Andrews, UK
+* [Alex Suh](https://leibniz-lib.de/en/about-the-lib/employees/alexander-suh.html), Research Museum Koenig Bonn, Germany
+  
+
+  
