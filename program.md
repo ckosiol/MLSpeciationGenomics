@@ -51,7 +51,7 @@
 |12:30-14:00| *Lunch* | 
 |14:00-15:30| <span style="color:gray">&#9724;</span> Workshop 5 (Pylogenomics II or Machine Learning II|
 |15:30-16:00| *Coffee Break* |
-|15:30-16:00| <span style="color:gray">&#9724;</span> Lecture  7|
+|15:30-16:00| <span style="color:gray">&#9724;</span> Lecture  7, Discussion|
 |15:30-16:00| *Coffee, End of conference, Hike along the beach if wanted by participants* |
 
 
