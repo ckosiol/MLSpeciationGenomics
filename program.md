@@ -23,7 +23,8 @@
 |17:00-19:00| *Poster Session Bell Pettigrew Museum*|
 
 <br>
-### **Thursday, 27th June 2025**
+
+### **Thursday, 26th June 2025**
 
 | Time| Event |
 |---|---|
@@ -36,11 +37,11 @@
 |15:30-16:00| *Coffee Break* |
 |16:00-16:45| <span style="color:gray">&#9724;</span> Lecture  5|
 |17:00-18:30| *Break*|
-|18:30-21:00| *Dinner at Lower College Hall |
+|18:30-21:00| *Dinner at Lower College Hall* |
 
 <br>
 
-### **Friday, 27th February 2021**
+### **Friday, 27th June 2025**
 
 | Time| Event |
 |---|---|
