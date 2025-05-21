@@ -25,7 +25,7 @@
 
 ### **Thursday, 26th June 2025**
 
-| Time| Event |
+| Time | Event |
 |---|---|
 |09:00-09:45| <span style="color:gray">&#9724;</span> Lecture 4: Neural Networks (Christoph Meyer and Petar Arsic, University of Bonn) |
 |09:00-10:30| <span style="color:gray">&#9724;</span> Contributed talks |
@@ -42,7 +42,7 @@
 
 ### **Friday, 27th June 2025**
 
-| Time| Event |
+| Time | Event |
 |---|---|
 |09:00-09:45| <span style="color:gray">&#9724;</span> Lecture 6: Polymorphism-aware Phylogenetic Models and Selection (Carolin Kosiol, University of St Andrews)|
 |09:00-10:30| <span style="color:gray">&#9724;</span> Contributed talks |
