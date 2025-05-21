@@ -44,12 +44,12 @@
 
 | Time| Event |
 |---|---|
-|09:00-09:45| <span style="color:gray">&#9724;</span> Lecture 6: Polymorphism-aware Phylogenetic Models and Selection (Carolin Kosiol, University of St Andrews |
+|09:00-09:45| <span style="color:gray">&#9724;</span> Lecture 6: Polymorphism-aware Phylogenetic Models and Selection (Carolin Kosiol, University of St Andrews)|
 |09:00-10:30| <span style="color:gray">&#9724;</span> Contributed talks |
 |10:30-11:00| *Coffee Break* | 
 |11:00-12:30| <span style="color:gray">&#9724;</span> Workshop 4: Phylogenomics I - PoMoBalance and RevBayes (Carolin Kosiol, Manel El Ait Hadj, Omar Ruelas, Lera Telizhenko, University of St Andrews) |
 |12:30-14:00| *Lunch* | 
-|14:00-15:30| <span style="color:gray">&#9724;</span> Workshop 5 Phylogenomics II  - DeepBlues Project: Antonio Pacheco and Nick Bailey, University of St Andrews|
+|14:00-15:30| <span style="color:gray">&#9724;</span> Workshop 5 Phylogenomics II  - DeepBlues Project: Antonio Pacheco and Nick Bailey, University of St Andrews)|
 |15:30-16:00| *Coffee Break* |
 |15:30-16:00| <span style="color:gray">&#9724;</span> Discussion (All)|
 |15:30-16:00| *Coffee, End of conference, Hike along the beach if wanted by participants* |
