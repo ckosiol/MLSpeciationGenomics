@@ -27,13 +27,12 @@
 
 | Time | Event |
 |---|---|
-|09:00-09:00| *Start of Day2* |
 |09:00-09:45| <span style="color:gray">&#9724;</span> Lecture 4: Neural Networks (Christoph Meyer and Petar Arsic, University of Bonn) |
 |09:45-10:30| <span style="color:gray">&#9724;</span> Contributed talks |
 |10:30-11:00| *Coffee Break* | 
-|11:00-12:30| <span style="color:gray">&#9724;</span> Workshop 2: Machine Learning for Experimental Evolution & Bait-ER: Rui Borges (University of St Andrews), Diogo Ribero, Ioanna Kotaris)|
+|11:00-12:30| <span style="color:gray">&#9724;</span> Workshop 2: Machine Learning for Experimental Evolution & Bait-ER (Rui Borges, Diogo Ribero, Ioanna Kotaris)|
 |12:30-14:00| *Lunch* | 
-|14:00-15:30| <span style="color:gray">&#9724;</span> Workshop 3: Machine Learning in Sequence Analysis (Christoph Meyer and Petar Arsic, University of Bonn)|
+|14:00-15:30| <span style="color:gray">&#9724;</span> Workshop 3: Machine Learning in Sequence Analysis (Christoph Meyer & Petar Arsic, University of Bonn)|
 |15:30-16:00| *Coffee Break* |
 |16:00-16:45| <span style="color:gray">&#9724;</span> Lecture  5: Machine Learning in Phylogenomics (Manolo Perez, Imperial College London) |
 |17:00-18:30| *Break*|
