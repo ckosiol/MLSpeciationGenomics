@@ -27,7 +27,7 @@
 
 | Time | Event |
 |---|---|
-|09:00-09:45| <span style="color:gray">&#9724;</span> Lecture 4: Neural Networks (Christoph Meyer and Petar Arsic, University of Bonn) |
+|09:00-09:15| <span style="color:gray">&#9724;</span> Lecture 4: Neural Networks (Christoph Meyer and Petar Arsic, University of Bonn) |
 |09:00-10:30| <span style="color:gray">&#9724;</span> Contributed talks |
 |10:30-11:00| *Coffee Break* | 
 |11:00-12:30| <span style="color:gray">&#9724;</span> Workshop 2: Machine Learning for Experimental Evolution & Bait-ER: Rui Borges (University of St Andrews), Diogo Ribero, Ioanna Kotaris)|
