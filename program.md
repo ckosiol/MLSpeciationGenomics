@@ -34,7 +34,7 @@
 |12:30-14:00| *Lunch* | 
 |14:00-15:30| <span style="color:gray">&#9724;</span> Workshop 3: Machine Learning in Sequence Analysis (Christoph Meyer & Petar Arsic, University of Bonn)|
 |15:30-16:00| *Coffee Break* |
-|16:00-16:45| <span style="color:gray">&#9724;</span> Lecture  5: Machine Learning in Phylogenomics (Manolo Perez, Imperial College London) |
+|16:00-16:45| <span style="color:gray">&#9724;</span> Lecture  5: PhyloCNN (Manolo Perez, Imperial College London) |
 |17:00-18:30| *Break*|
 |18:30-21:00| *Dinner at Lower College Hall* |
 
