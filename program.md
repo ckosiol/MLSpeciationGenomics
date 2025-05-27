@@ -9,9 +9,9 @@
 
 | Time | Event | 
 |---|---|
-|09:00-09:15| *Workshop welcome session* |
-|09:15-10:30| <span style="color:gray">&#9724;</span> Lecture 1: Experimental Evolution (Mike Ritchie, St Andrews) |
-|10:00-10:30| <span style="color:gray">&#9724;</span> Contributed talks |
+|09:00-09:30| *Registration* | 
+|09:30-09:45| *Workshop welcome session* |
+|09:45-10:30| <span style="color:gray">&#9724;</span> Lecture 1: Experimental Evolution (Mike Ritchie, St Andrews) |
 |10:30-11:00| *Coffee Break* | 
 |11:00-11:45| <span style="color:gray">&#9724;</span> Lecture 2: Speciation Genomcis (Alex Suh, University of Bonn) |
 |11:45-12:30| <span style="color:gray">&#9724;</span> Contributed talks|
