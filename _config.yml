@@ -11,12 +11,6 @@ navigation:
     url: workshop
   - title: Registration
     url: registration
-  - title: Contributed talks
-    url: talks
-  - title: Posters
-    url: posters
-  - title: Discussion group
-    url: discussiongroup  
   - title: Scientific committee
     url: scientific_committee
   - title: Organizing committee
