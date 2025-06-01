@@ -15,8 +15,6 @@ navigation:
     url: scientific_committee
   - title: Organizing committee
     url: organizers
-  - title: Participants
-    url: participants
   - title: Contacts
     url: contacts
   - title: Sponsors
