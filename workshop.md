@@ -1,4 +1,4 @@
-## Workshopx
+## Workshops
 
 The meeting includes three workshops including practical exercises. Below we include links to the material that will be used. 
 
