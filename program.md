@@ -11,13 +11,12 @@
 |11:00-11:45| <span style="color:gray">&#9724;</span> Lecture 2: Alex Suh (University of Bonn): The contribution of genomic (in)stability to population and species divergence|
 |11:45-12:30| <span style="color:gray">&#9724;</span> Contributed talks:|
 |11:45-12:00| <span style="color:gray">&#9724;</span> Francisco Ruiz-Ruano (Bonn): Evolutionary dynamics of GRCs in passerine birds|
-|12:00-12:15| <span style="color:gray">&#9724;</span> |
-|12:15-12:30| <span style="color:gray">&#9724;</span> |
+|12:00-12:15| <span style="color:gray">&#9724;</span> Diogo Ribeiro (St Andrews): Uncovering the architecture of selection from experimentally evolved populations with Machine Learning|
+|12:15-12:30| <span style="color:gray">&#9724;</span> Valeriia Telizhenko (Schmalhausen Institute of Zoology, Kyiv): A Machine Learning approach to identifying recent selection in blue whale evolution|
 |12:30-14:00| *Lunch* | 
-|14:00-15:30| <span style="color:gray">&#9724;</span> Workshop 1 & Discussion: Museum Genomics (Martin Kapun, Natural History Museum Vienna)|
+|14:00-15:30| <span style="color:gray">&#9724;</span> Workshop 1: Martin Kapun (Natural History Museum Vienna): From Museums to Microbes: A concise introduction to Museomics using Drosophila melanogaster and its symbionts as a model|
 |15:30-16:00| *Coffee Break* |
-|16:00-16:45| <span style="color:gray">&#9724;</span> Lecture  3: Phylogenomics meets Deep Learning (Svitlana Braichenko, University of Edinburgh) |
-|17:00-19:00| *Poster Session Bell Pettigrew Museum*|
+|16:00-16:45| <span style="color:gray">&#9724;</span> Lecture  3: Svitlana Braichenko (University of Edinburgh): Phylogenomics meets Deep Learning|
 
 <br>
 
@@ -47,10 +46,9 @@
 |---|---|
 |09:00-09:45| <span style="color:gray">&#9724;</span> Lecture 6: Polymorphism-aware Phylogenetic Models and Selection (Carolin Kosiol, University of St Andrews)|
 |09:45-10:30| <span style="color:gray">&#9724;</span> Contributed talks |
-|09:45-10:00| <span style="color:gray">&#9724;</span> |
-|10:00-10:15| <span style="color:gray">&#9724;</span> |
-|10:15-10:30| <span style="color:gray">&#9724;</span> |
-****
+|09:45-10:00| <span style="color:gray">&#9724;</span> Ioanna Kotari (Vienna): PoMo-cod: a polymorphism-aware phylogenetic codon model|
+|10:00-10:15| <span style="color:gray">&#9724;</span> Menno de Jong (Leipzig): Species delineation using genome-wide Dxy- and Fst-estimates|
+|10:15-10:30| <span style="color:gray">&#9724;</span> Yari Cerruti (St Andrews): Sequence composition and conservation predict the phenotypic relevance of transposable elements|
 |10:30-11:00| *Coffee Break* | 
 |11:00-12:30| <span style="color:gray">&#9724;</span> Workshop 4: Phylogenomics I - PoMoBalance and RevBayes (Carolin Kosiol, Manel El Ait Hadj, Omar Ruelas, Lera Telizhenko, University of St Andrews) |
 |12:30-14:00| *Lunch* | 
