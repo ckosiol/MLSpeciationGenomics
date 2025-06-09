@@ -1,10 +1,5 @@
 ## Program
 
-<span style="color:red">&#9724;</span> Keynote speaker<br/>
-<span style="color:blue">&#9724;</span> Invited speaker<br/>
-<span style="color:orange">&#9724;</span> [Contributed talk](talks.md)<br/>
-<span style="color:gray">&#9724;</span> [Workshop session](workshop.md)
-
 ### **Wednesday, 25th June 2025**
 
 | Time | Event | 
@@ -51,7 +46,11 @@
 | Time | Event |
 |---|---|
 |09:00-09:45| <span style="color:gray">&#9724;</span> Lecture 6: Polymorphism-aware Phylogenetic Models and Selection (Carolin Kosiol, University of St Andrews)|
-|09:00-10:30| <span style="color:gray">&#9724;</span> Contributed talks |
+|09:45-10:30| <span style="color:gray">&#9724;</span> Contributed talks |
+|09:45-10:00| <span style="color:gray">&#9724;</span> |
+|10:00-10:15| <span style="color:gray">&#9724;</span> |
+|10:15-10:30| <span style="color:gray">&#9724;</span> |
+****
 |10:30-11:00| *Coffee Break* | 
 |11:00-12:30| <span style="color:gray">&#9724;</span> Workshop 4: Phylogenomics I - PoMoBalance and RevBayes (Carolin Kosiol, Manel El Ait Hadj, Omar Ruelas, Lera Telizhenko, University of St Andrews) |
 |12:30-14:00| *Lunch* | 
