@@ -7,5 +7,3 @@ The meeting is sponsored by:
 <br/> <br/><br/>
 
 
-
-Homepage photo credits to [Dimitry Anikin](https://unsplash.com/@anikinearthwalker).
