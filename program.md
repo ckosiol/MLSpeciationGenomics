@@ -24,15 +24,15 @@
 
 | Time | Event |
 |---|---|
-|09:00-09:45| <span style="color:gray">&#9724;</span> Lecture 4: Neural Networks (Christoph Meyer and Petar Arsic, University of Bonn) |
+|09:00-09:45| <span style="color:gray">&#9724;</span> Lecture 4:  Christoph Mayer / Peter Arsic (Bonn): Basics in Neural Networks|
 |09:45-10:30| <span style="color:gray">&#9724;</span> Contributed talks |
 |09:45-10:00|<span style="color:gray">&#9724;</span> İdil Çağla Ertaş (Bonn): The genetic bases of quantitative morphological variation in a population of Drosophila|
 |10:00-10:15|<span style="color:gray">&#9724;</span> Nina Casillas (Bonn): Genomic and Ecological Insights into Biodiversity Decline: A Case Study of the Eurasian curlew, Numenius arquata|
 |10:15-10:30|<span style="color:gray">&#9724;</span> Manel Ait El Hadj (St Andrews): Polymorphism-aware Framework to Analyse RNA-Seq Data for Trait Evolution Studies|
 |10:30-11:00| *Coffee Break* | 
-|11:00-12:30| <span style="color:gray">&#9724;</span> Workshop 2: Machine Learning for Experimental Evolution & Bait-ER (Rui Borges, Diogo Ribero, Ioanna Kotaris)|
+|11:00-12:30| <span style="color:gray">&#9724;</span> Workshop 2:  Rui Borges (St Andrews): Detecting Targets of Selection in Experimental Evolution|
 |12:30-14:00| *Lunch* | 
-|14:00-15:30| <span style="color:gray">&#9724;</span> Workshop 3: Machine Learning in Sequence Analysis (Christoph Meyer & Petar Arsic, University of Bonn)|
+|14:00-15:30| <span style="color:gray">&#9724;</span> Workshop 3: Christoph Mayer /  Peter Arsic (Bonn): Machine learning topics in sequence analyses|
 |15:30-16:00| *Coffee Break* |
 |16:00-16:45| <span style="color:gray">&#9724;</span> Lecture  5: PhyloCNN (Manolo Perez, Imperial College London) |
 |17:00-18:30| *Break*|
