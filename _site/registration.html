@@ -1,0 +1,140 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <link rel="icon" type="image/png"  href="assets/img/favicon.png">
+    <title>MIC-Phy 2021 by mrborges23</title>
+
+    <link rel="stylesheet" href="/assets/css/styles.css?v=1edb6358876e230e7863746f4b5e35b6f405c7d6">
+    <meta name="viewport" content="width=device-width">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>MIC-Phy 2021</h1>
+        <p>The virtual MIC-Phy will be happening here!</p>
+
+        <table>
+          
+            
+              <tr><th><a href="/">Home</a></th></tr>
+            
+          
+            
+              <tr><th><a href="/program">Program</a></th></tr>
+            
+          
+            
+              <tr><th><a href="/workshop">Workshop</a></th></tr>
+            
+          
+            
+              <tr><th><a href="/registration">Registration</a></th></tr>
+            
+          
+            
+              <tr><th><a href="/scientific_committee">Scientific committee</a></th></tr>
+            
+          
+            
+              <tr><th><a href="/organizers">Organizing committee</a></th></tr>
+            
+          
+            
+              <tr><th><a href="/contacts">Contacts</a></th></tr>
+            
+          
+            
+              <tr><th><a href="/funding">Sponsors</a></th></tr>
+            
+          
+        </table>
+
+        
+      </header>
+      <section>
+
+      <h2 id="registration">Registration</h2>
+
+<p>Registrations for meeting attendance and poster contributions will continuously be accepted till the <strong>9th of February 2021</strong>. The deadline for contributed talks and workshop attendance is on the <strong>15th of January 2021</strong>.</p>
+
+<p>Please, make sure you follow the guidelines for abstract and motivation letter submission; these can be found at the bottom of this page.</p>
+
+<form name="submit-to-google-sheet" id="form" onsubmit="alert('Thanks for your registration! We will check your submitted data and send you a confimatory email.');">
+  <br />
+  Name:<br />
+  <input type="text" name="name" value="" />
+  <br /><br />
+  Email:<br />
+  <input type="text" name="email" value="" />
+  <br /><br />
+  Affiliation:<br />
+  <input type="text" name="affiliation" value="" />
+  <br /><br />
+  Do you want to contribute with an oral/poster presentation? <br />
+  <input type="radio" name="question1" value="1" /> No <br />
+  <input type="radio" name="question1" value="2" /> Yes, oral presentation only <br />
+  <input type="radio" name="question1" value="3" /> Yes, oral or poster presentation <br />
+  <input type="radio" name="question1" value="4" /> Yes, poster presentation <br /><br />
+
+  Abstract:<br />
+  <textarea rows="4" cols="50" maxlength="2000" name="abstract"></textarea>
+  <br /><br />
+
+  Do you want to attend the workshop?: <br />
+  <input type="radio" name="question2" value="1" /> No <br />
+  <input type="radio" name="question2" value="2" /> Yes <br /><br />
+  Motivation letter:<br />
+  <textarea rows="4" cols="50" maxlength="2000" name="letter"></textarea>
+
+  <br /><br />
+  <button type="submit">Send</button>
+</form>
+<p><br /></p>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbyJClSf277gOQYgH2cxLkYSe6uXDj_1AE-Zl-0qc5YY4KEpOjJo/exec'
+  const form = document.forms['submit-to-google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+<p><strong>Abstract</strong></p>
+<ul>
+  <li>The title should be placed in the first line.</li>
+  <li>The authors’ list goes in the second line. Affiliations should be identified with square brackets: e.g., [1,2].</li>
+  <li>Affiliations’ list goes in the third line. Identify each affiliation using square brackets and separate them using commas.</li>
+  <li>Abstract text starts in the fourth line.</li>
+  <li>Please do not include any references in your abstract.</li>
+  <li>Limit: 2000 characters.</li>
+</ul>
+
+<p><br /></p>
+
+<p><strong>Motivation letter to attend the workshop</strong></p>
+<ul>
+  <li>Explain the reasons why you want to participate in the workshop.</li>
+  <li>Preference will be given to participants that are currently performing phylogenomic analysis in real data.</li>
+  <li>Limit: 2000 characters.</li>
+</ul>
+
+
+      </section>
+      <footer>
+        
+        <p>This project is maintained by <a href="https://github.com/mrborges23">mrborges23</a></p>
+        
+      </footer>
+    </div>
+    <script src="/assets/js/scale.fix.js"></script>
+
+
+  
+  </body>
+</html>

@@ -1,0 +1,23 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=12;
+	Taxlabels
+		Gorilla_beringei_graueri
+		Gorilla_gorilla_dielhi
+		Gorilla_gorilla_gorilla
+		Homo_sapiens_afr
+		Homo_sapiens_nonAfr
+		Pan_paniscus
+		Pan_troglodytes_ellioti
+		Pan_troglodytes_schweinfurthii
+		Pan_troglodytes_troglodytes
+		Pan_troglodytes_verus
+		Pongo_abelii
+		Pongo_pygmaeus
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](((((((Pan_troglodytes_schweinfurthii[&index=4]:0.226653[&brlen_95%_HPD={0.068323,0.402765}],Pan_troglodytes_troglodytes[&index=2]:0.800393[&brlen_95%_HPD={0.533325,1.08927}])[&index=13,posterior=0.996879]:0.198078[&brlen_95%_HPD={0.04091,0.383986}],Pan_troglodytes_ellioti[&index=6]:0.032281[&brlen_95%_HPD={0.000186,0.09562}])[&index=14,posterior=0.351436]:0.044847[&brlen_95%_HPD={0.00067,0.130499}],Pan_troglodytes_verus[&index=12]:0.552470[&brlen_95%_HPD={0.322763,0.802801}])[&index=15,posterior=0.594881]:0.072899[&brlen_95%_HPD={0.001483,0.178666}],Pan_paniscus[&index=7]:0.170636[&brlen_95%_HPD={0.015705,0.325422}])[&index=16,posterior=0.633583]:0.114640[&brlen_95%_HPD={0.000614,0.247525}],((Homo_sapiens_afr[&index=9]:1.552033[&brlen_95%_HPD={1.19586,1.96778}],Homo_sapiens_nonAfr[&index=3]:0.321862[&brlen_95%_HPD={0.078269,0.583248}])[&index=17,posterior=0.996255]:0.361883[&brlen_95%_HPD={0.078045,0.641857}],(Pongo_abelii[&index=5]:0.702866[&brlen_95%_HPD={0.384399,1.04982}],Pongo_pygmaeus[&index=11]:0.553032[&brlen_95%_HPD={0.25613,0.862707}])[&index=18,posterior=1.000000]:0.967562[&brlen_95%_HPD={0.578017,1.39223}])[&index=19,posterior=0.646067]:0.151758[&brlen_95%_HPD={0.000375,0.332409}])[&index=20,posterior=1.000000]:0.343468[&brlen_95%_HPD={0.10603,0.585708}],Gorilla_gorilla_gorilla[&index=8]:0.098723[&brlen_95%_HPD={0.00025,0.254861}])[&index=21,posterior=1.000000]:3.099736[&brlen_95%_HPD={2.60463,3.58379}],Gorilla_beringei_graueri[&index=1]:2.200535[&brlen_95%_HPD={1.85012,2.50419}],Gorilla_gorilla_dielhi[&index=10]:0.426890[&brlen_95%_HPD={0.355677,0.501611}])[&index=22,posterior=1.000000]:0.000000;
+End;

@@ -1,0 +1,23 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=12;
+	Taxlabels
+		Gorilla_beringei_graueri
+		Gorilla_gorilla_dielhi
+		Gorilla_gorilla_gorilla
+		Homo_sapiens_afr
+		Homo_sapiens_nonAfr
+		Pan_paniscus
+		Pan_troglodytes_ellioti
+		Pan_troglodytes_schweinfurthii
+		Pan_troglodytes_troglodytes
+		Pan_troglodytes_verus
+		Pongo_abelii
+		Pongo_pygmaeus
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U]((((((Homo_sapiens_afr[&index=12]:0.430025[&brlen_95%_HPD={0.028347,0.968543}],Homo_sapiens_nonAfr[&index=3]:0.053232[&brlen_95%_HPD={9e-06,0.214089}])[&index=13,posterior=1.000000]:0.335226[&brlen_95%_HPD={0.012942,0.843369}],(Pongo_abelii[&index=7]:0.170307[&brlen_95%_HPD={0.001631,0.47992}],Pongo_pygmaeus[&index=8]:0.075399[&brlen_95%_HPD={0.000164,0.267548}])[&index=14,posterior=1.000000]:0.782511[&brlen_95%_HPD={0.047089,1.65817}])[&index=15,posterior=0.749064]:0.095686[&brlen_95%_HPD={0.000176,0.357069}],((Pan_troglodytes_ellioti[&index=6]:0.042966[&brlen_95%_HPD={2.5e-05,0.166373}],Pan_troglodytes_verus[&index=10]:0.067783[&brlen_95%_HPD={9.8e-05,0.240497}])[&index=16,posterior=0.290262]:0.050038[&brlen_95%_HPD={2e-06,0.187359}],(Pan_troglodytes_schweinfurthii[&index=5]:0.031969[&brlen_95%_HPD={5e-06,0.13811}],Pan_troglodytes_troglodytes[&index=9]:0.172796[&brlen_95%_HPD={0.005507,0.459416}])[&index=17,posterior=0.992509]:0.111055[&brlen_95%_HPD={0.000675,0.334812}])[&index=18,posterior=0.517478]:0.135050[&brlen_95%_HPD={2.1e-05,0.368815}])[&index=19,posterior=0.574282]:0.062845[&brlen_95%_HPD={0.00035,0.287746}],Pan_paniscus[&index=4]:0.215035[&brlen_95%_HPD={0.002196,0.577987}])[&index=20,posterior=0.998752]:0.261740[&brlen_95%_HPD={0.011738,0.690581}],Gorilla_gorilla_gorilla[&index=2]:0.162553[&brlen_95%_HPD={9e-06,0.484667}])[&index=21,posterior=1.000000]:1.649247[&brlen_95%_HPD={0.037851,3.09005}],Gorilla_beringei_graueri[&index=1]:1.369008[&brlen_95%_HPD={0.000725,2.56602}],Gorilla_gorilla_dielhi[&index=11]:0.501540[&brlen_95%_HPD={0.147841,1.01655}])[&index=22,posterior=1.000000]:0.000000;
+End;
