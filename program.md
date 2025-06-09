@@ -11,10 +11,13 @@
 |---|---|
 |09:00-09:30| *Registration* | 
 |09:30-09:45| *Workshop welcome session* |
-|09:45-10:30| <span style="color:gray">&#9724;</span> Lecture 1: Experimental Evolution (Mike Ritchie, St Andrews) |
+|09:45-10:30| <span style="color:gray">&#9724;</span> Lecture 1: Mike Ritchie (St Andrews): Does experimental evolution recapitulate speciation genomics?|
 |10:30-11:00| *Coffee Break* | 
-|11:00-11:45| <span style="color:gray">&#9724;</span> Lecture 2: Speciation Genomcis (Alex Suh, University of Bonn) |
-|11:45-12:30| <span style="color:gray">&#9724;</span> Contributed talks|
+|11:00-11:45| <span style="color:gray">&#9724;</span> Lecture 2: Alex Suh (University of Bonn): The contribution of genomic (in)stability to population and species divergence|
+|11:45-12:30| <span style="color:gray">&#9724;</span> Contributed talks:|
+|11:45-12:00| <span style="color:gray">&#9724;</span> Francisco Ruiz-Ruano (Bonn): Evolutionary dynamics of GRCs in passerine birds|
+|12:00-12:15| <span style="color:gray">&#9724;</span> |
+|12:15-12:30| <span style="color:gray">&#9724;</span> |
 |12:30-14:00| *Lunch* | 
 |14:00-15:30| <span style="color:gray">&#9724;</span> Workshop 1 & Discussion: Museum Genomics (Martin Kapun, Natural History Museum Vienna)|
 |15:30-16:00| *Coffee Break* |
@@ -29,6 +32,9 @@
 |---|---|
 |09:00-09:45| <span style="color:gray">&#9724;</span> Lecture 4: Neural Networks (Christoph Meyer and Petar Arsic, University of Bonn) |
 |09:45-10:30| <span style="color:gray">&#9724;</span> Contributed talks |
+|09:45-10:00|<span style="color:gray">&#9724;</span> İdil Çağla Ertaş (Bonn): The genetic bases of quantitative morphological variation in a population of Drosophila|
+|10:00-10:15|<span style="color:gray">&#9724;</span> Nina Casillas (Bonn): Genomic and Ecological Insights into Biodiversity Decline: A Case Study of the Eurasian curlew, Numenius arquata|
+|10:15-10:30|<span style="color:gray">&#9724;</span> Manel Ait El Hadj (St Andrews): Polymorphism-aware Framework to Analyse RNA-Seq Data for Trait Evolution Studies|
 |10:30-11:00| *Coffee Break* | 
 |11:00-12:30| <span style="color:gray">&#9724;</span> Workshop 2: Machine Learning for Experimental Evolution & Bait-ER (Rui Borges, Diogo Ribero, Ioanna Kotaris)|
 |12:30-14:00| *Lunch* | 
