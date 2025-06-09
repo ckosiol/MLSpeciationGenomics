@@ -19,6 +19,6 @@ Before the course starts, please install the following software on your own comp
 [&#8600;Part 2. RevBayes](/assets/session1/2.pdf)<br/>
 
 * **PoMoBalance**<br/>
-https://revbayes.github.io/tutorials/pomobalance/
+[PoMo Balance Tutorial](https://revbayes.github.io/tutorials/pomobalance/)
 <br/>
 
