@@ -34,7 +34,7 @@
 |12:30-14:00| *Lunch* | 
 |14:00-15:30| <span style="color:gray">&#9724;</span> Workshop 3: Christoph Mayer /  Peter Arsic (Bonn): Machine learning topics in sequence analyses|
 |15:30-16:00| *Coffee Break* |
-|16:00-16:45| <span style="color:gray">&#9724;</span> Lecture  5: PhyloCNN (Manolo Perez, Imperial College London) |
+|16:00-16:45| <span style="color:gray">&#9724;</span> Lecture  5: Manolo Perez (Imperial College London): PhyloCNN|
 |17:00-18:30| *Break*|
 |18:30-21:00| *Dinner at Lower College Hall* |
 
@@ -44,7 +44,7 @@
 
 | Time | Event |
 |---|---|
-|09:00-09:45| <span style="color:gray">&#9724;</span> Lecture 6: Polymorphism-aware Phylogenetic Models and Selection (Carolin Kosiol, University of St Andrews)|
+|09:00-09:45| <span style="color:gray">&#9724;</span> Lecture 6: Carolin Kosiol (St Andrews) Polymorphism-aware Phylogenetic Models and Selection|
 |09:45-10:30| <span style="color:gray">&#9724;</span> Contributed talks |
 |09:45-10:00| <span style="color:gray">&#9724;</span> Ioanna Kotari (Vienna): PoMo-cod: a polymorphism-aware phylogenetic codon model|
 |10:00-10:15| <span style="color:gray">&#9724;</span> Menno de Jong (Leipzig): Species delineation using genome-wide Dxy- and Fst-estimates|
