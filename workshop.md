@@ -13,8 +13,6 @@ Before the course starts, please install the following software on your own comp
 * RevBayes. For this workshop, we will be using the ```development``` RevBayes branch, where the polymorphism-aware models are all available. Make sure you follow these [instructions](revbayes.md) to install RevBayes. 
 * [Tracer](https://beast.community/tracer)
 * [FigTree](https://github.com/rambaut/figtree/releases)
-* [R](https://www.r-project.org/) or [RStudio](https://rstudio.com/) with the package **Rcpp**
-* A good text editor, such as Sublime Text, NotePad++, Atom, BBEdit, TextEdit, vim, or emacs. Word is not a good text editor!
 
 ### Parts
 * **Museums Genomics**<br/>
@@ -22,7 +20,7 @@ Before the course starts, please install the following software on your own comp
 
 * **Machine Learning**<br/>
 [&#8600;Workshop 2. Experimental Evolution]()<br/>
-[&#8600;Workshop 3. ]()<br/>
+[&#8600;Workshop 3. Machine learning topics in sequence analyses]()<br/>
 [&#8600;Workshop 4. PhyloDeep]()<br/>
 
 * **PoMoBalance**<br/>
