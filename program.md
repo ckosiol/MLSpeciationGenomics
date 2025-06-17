@@ -13,8 +13,8 @@
 |11:45-12:00| <span style="color:gray">&#9724;</span> Francisco Ruiz-Ruano (Bonn): Evolutionary dynamics of GRCs in passerine birds|
 |12:00-12:15| <span style="color:gray">&#9724;</span> Diogo Ribeiro (St Andrews): Uncovering the architecture of selection from experimentally evolved populations with Machine Learning|
 |12:15-12:30| <span style="color:gray">&#9724;</span> Valeriia Telizhenko (Schmalhausen Institute of Zoology, Kyiv): A Machine Learning approach to identifying recent selection in blue whale evolution|
-|12:30-14:00| *Lunch* | 
-|14:00-15:30| <span style="color:gray">&#9724;</span> Workshop 1: Martin Kapun (Natural History Museum Vienna): From Museums to Microbes: A concise introduction to Museomics using Drosophila melanogaster and its symbionts as a model|
+|12:30-13:15| *Lunch* | 
+|13:15-15:30| <span style="color:gray">&#9724;</span> Workshop 1: Martin Kapun (Natural History Museum Vienna): From Museums to Microbes: A concise introduction to Museomics using Drosophila melanogaster and its symbionts as a model|
 |15:30-16:00| *Coffee Break* |
 |16:00-16:45| <span style="color:gray">&#9724;</span> Lecture  3: Svitlana Braichenko (University of Edinburgh): Phylogenomics meets Deep Learning|
 
