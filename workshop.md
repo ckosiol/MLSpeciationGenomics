@@ -19,11 +19,11 @@ Before the course starts, please install the following software on your own comp
 [&#8600;Workshop 1. Museomics](https://github.com/capoony/MuseomicsWorkshop2025)<br/>
 
 * **Machine Learning**<br/>
-[&#8600;Workshop 2. Experimental Evolution]()<br/>
+[&#8600;Workshop 2. Detecting Targets of Selection in Experimental Evolution]()<br/>
 [&#8600;Workshop 3. Machine learning topics in sequence analyses]()<br/>
-[&#8600;Workshop 4. PhyloDeep]()<br/>
+[&#8600;Workshop 4. PhyloDeep Project]()<br/>
 
 * **PoMoBalance**<br/>
-[Workshop 5. PoMo Balance Tutorial](https://revbayes.github.io/tutorials/pomobalance/)
+[Workshop 5. PoMo Balance and RevBayes](https://revbayes.github.io/tutorials/pomobalance/)
 <br/>
 
