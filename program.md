@@ -50,9 +50,9 @@
 |10:00-10:15| <span style="color:gray">&#9724;</span> Menno de Jong (Leipzig): Species delineation using genome-wide Dxy- and Fst-estimates|
 |10:15-10:30| <span style="color:gray">&#9724;</span> Yari Cerruti (St Andrews): Sequence composition and conservation predict the phenotypic relevance of transposable elements|
 |10:30-11:00| *Coffee Break* | 
-|11:00-12:30| <span style="color:gray">&#9724;</span> Workshop 4: Phylogenomics I - PoMoBalance and RevBayes (Carolin Kosiol, Manel El Ait Hadj, Omar Ruelas, Lera Telizhenko, University of St Andrews) |
+|11:00-12:30| <span style="color:gray">&#9724;</span> Workshop 4: DeepBlues Project (Antonio Pacheco and Nick Bailey, University of St Andrews) PoMoBalance and RevBayes|
 |12:30-14:00| *Lunch* | 
-|14:00-15:30| <span style="color:gray">&#9724;</span> Workshop 5 Phylogenomics II  - DeepBlues Project (Antonio Pacheco and Nick Bailey, University of St Andrews)|
+|14:00-15:30| <span style="color:gray">&#9724;</span> Workshop 5: PoMoBalance and RevBayes (Carolin Kosiol, Manel El Ait Hadj, Omar Ruelas, Lera Telizhenko, University of St Andrews)|
 |15:30-16:00| *Coffee Break* |
 |15:30-16:00| <span style="color:gray">&#9724;</span> Discussion (All)|
 |15:30-16:00| *Coffee, End of conference, Hike along the beach if wanted by participants* |
