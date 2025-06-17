@@ -5,25 +5,25 @@ MLSpeciationGenomics brings together researchers working on very different quest
 
 ## Museuomics - Possible topics to discuss
 
-* Wetlab procedures
+* **Wetlab procedures**
 * Protocols
 * Tissue Storage
 * Degradation
 * Single Stranded DNA 
 * Methods - genome skimming, hyRAD, etc.
 
-* Bioinformatic challenges
+* **Bioinformatic challenges**
 * Contamination
 * Degradation
 * Integrated analyses
 * AI
 
-* Ethical considerations
+* **Ethical considerations**
 * Damage of Specimens
 * Value of Samples
 * Curators responsibility
 
-* Outlook and Visions
+* **Outlook and Visions**
 * Networking 
 * Data exchange / Databases 
 * Harmonisation of methods 
