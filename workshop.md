@@ -17,8 +17,8 @@ Before the course starts, please install the following software on your own comp
 * A good text editor, such as Sublime Text, NotePad++, Atom, BBEdit, TextEdit, vim, or emacs. Word is not a good text editor!
 
 ### Parts
-* **Museuomics**<br/>
-[&#8600;Workshop 1. Museums Genomics](https://github.com/capoony/MuseomicsWorkshop2025)<br/>
+* **Museums Genomics**<br/>
+[&#8600;Workshop 1. Museomics](https://github.com/capoony/MuseomicsWorkshop2025)<br/>
 
 * **Machine Learning**<br/>
 [&#8600;Workshop 2. Experimental Evolution]()<br/>
