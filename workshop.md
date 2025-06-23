@@ -5,14 +5,12 @@ The meeting includes three workshops including practical exercises. Below we inc
 ### Software
 
 Before the course starts, please install the following software on your own computer:
-* Access to Unix system.
+* Access to Unix system
 * A good text editor, such as Sublime Text, NotePad++, Atom, BBEdit, TextEdit, vim, or emacs. Word is not a good text editor!
 * Python. We will be using [Jupyter Notebooks](https://jupyter.org/install)
+* Python libraries for the machine learning workshops: numpy, pandas, scikit-learn, tensorflow, and matplotlib
 * [R](https://www.r-project.org/) or [RStudio](https://rstudio.com/) with the package **Rcpp**
-* A good text editor, such as Sublime Text, NotePad++, Atom, BBEdit, TextEdit, vim, or emacs. Word is not a good text editor!
-* RevBayes. For this workshop, we will be using the ```development``` RevBayes branch, where the polymorphism-aware models are all available. Make sure you follow these [instructions](revbayes.md) to install RevBayes. 
-* [Tracer](https://beast.community/tracer)
-* [FigTree](https://github.com/rambaut/figtree/releases)
+* For installing software: Conda and git (likely to be already provided by through your linux distribution) </br>
 
 ### Parts
 * **Museums Genomics**<br/>
@@ -24,6 +22,10 @@ Before the course starts, please install the following software on your own comp
 [&#8600;Workshop 4. PhyloDeep Project]()<br/>
 
 * **PoMoBalance**<br/>
-[Workshop 5. PoMo Balance and RevBayes](https://revbayes.github.io/tutorials/pomobalance/)
+* RevBayes. For this workshop, we will be using the ```development``` RevBayes branch, where the polymorphism-aware models are all available. Make sure you follow these [instructions](revbayes.md) to install RevBayes. Please do not use conda to install RevBayes.  
+* [Tracer](https://beast.community/tracer)
+* [FigTree](https://github.com/rambaut/figtree/releases)
+  </br>
+*[Workshop 5. PoMo Balance and RevBayes](https://revbayes.github.io/tutorials/pomobalance/)
 <br/>
 
