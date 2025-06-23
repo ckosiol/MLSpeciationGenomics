@@ -18,7 +18,7 @@ Before the course starts, please install the following software on your own comp
 
 * **Machine Learning**<br/>
 [&#8600;Workshop 2. Detecting Targets of Selection in Experimental Evolution](https://github.com/mrborges23/Bait-ER)<br/>
-[&#8600;Workshop 3. Machine learning topics in sequence analyses]()<br/>
+[&#8600;Workshop 3. Machine learning topics in sequence analyses](https://github.com/ckosiol/MLSpeciationGenomics/blob/main/Workshop_ML_Introduction.pdf)<br/>
 [&#8600;Workshop 4. PhyloDeep Project]()<br/>
 
 * **PoMoBalance**<br/>
