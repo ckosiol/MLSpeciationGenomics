@@ -1,3 +1,3 @@
 ## Registration
 
-Registration will open 15th March 2025.
+Registration is now closed.
