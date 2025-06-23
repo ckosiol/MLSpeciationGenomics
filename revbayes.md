@@ -22,3 +22,11 @@ by this one:
 git clone --branch development https://github.com/revbayes/revbayes.git revbayes
 ```
 
+Then change to the PoMoBalance branch by typing:
+
+```
+git checkout dev_PoMo_bs_master
+```
+
+
+
