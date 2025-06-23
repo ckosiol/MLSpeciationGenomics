@@ -22,7 +22,7 @@ Before the course starts, please install the following software on your own comp
 [&#8600;Workshop 4. PhyloDeep Project]()<br/>
 
 * **PoMoBalance**<br/>
-For this workshop, we will be using the ```development``` RevBayes branch, where the polymorphism-aware models are all available. Make sure you follow these [instructions](revbayes.md) to install RevBayes. Please do not use conda to install RevBayes.  </br>
+For this workshop, we will be using the ```development``` RevBayes branch, where the polymorphism-aware models are all available. Make sure you follow these [instructions](revbayes.md) to install RevBayes. Please do not use conda to install RevBayes.  <br/>
 [&#8600;Workshop 5. PoMo Balance and RevBayes](https://revbayes.github.io/tutorials/pomobalance/)<br/>
 We will also need: <br/>
 * [Tracer](https://beast.community/tracer)
