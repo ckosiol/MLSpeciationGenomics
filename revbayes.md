@@ -162,7 +162,8 @@ sequences.clamp(data)
 mymodel = model(Q)
 print("\nFinished building model")
 ```
-###Setting, running, and summarising the MCMC simulation
+### Setting, running, and summarising the MCMC simulation
+
 ```
 ## Setup output paths.
 output_dir <- "output/" + outname + "/"
