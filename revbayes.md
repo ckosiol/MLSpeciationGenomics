@@ -130,15 +130,16 @@ for (i in 1:6){
   # And for some reason there is no function to manually cast it back.
   B[i] <- 5
 }
-```
-```
-## Load in fixed tree. This tree has a fixed topology, but we will still later
-# infer the branch lengths. You can infer tree topology if you wish, although
-# this is probably best done with PoMoSelect. We need not do that here since our 
-# tree topology is so simple (and known since we wrote the simulations) it can
-# be built by hand.
-tree <- readBranchLengthTrees("base_tree.nwk")[1]
 
+```
+This tree has a fixed topology, but we will still later infer the branch lengths. You can infer tree topology if you wish, although this is probably best done with PoMoSelect. We need not do that here since our tree topology is so simple (and known since we wrote the simulations) it can be built by hand.
+
+```
+## Load in fixed tree. 
+tree <- readBranchLengthTrees("base_tree.nwk")[1]
+```
+Note, we could also use function fnReversiblePoMoBalance4N since the preferred frequency in our example is in the middle. However, we use more general function fnPoMoBalance4N to test the estimation of preferred frequency B.
+```
 ## Setup the instantaneous rate matrix Q.
 Q := fnPoMoBalance4N(N, mu, phi, beta, B)
 
@@ -160,7 +161,9 @@ sequences.clamp(data)
 ## Assemble all nodes into a model.
 mymodel = model(Q)
 print("\nFinished building model")
-
+```
+##Setting, running, and summarising the MCMC simulation
+```
 ## Setup output paths.
 output_dir <- "output/" + outname + "/"
 model_path <- output_dir + outname + ".log"
@@ -198,5 +201,5 @@ print("\nDone...")
 
 # Quit once finished.
 q()
-
+```
 ```
