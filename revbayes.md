@@ -131,4 +131,72 @@ for (i in 1:6){
   B[i] <- 5
 }
 ```
+```
+## Load in fixed tree. This tree has a fixed topology, but we will still later
+# infer the branch lengths. You can infer tree topology if you wish, although
+# this is probably best done with PoMoSelect. We need not do that here since our 
+# tree topology is so simple (and known since we wrote the simulations) it can
+# be built by hand.
+tree <- readBranchLengthTrees("base_tree.nwk")[1]
 
+## Setup the instantaneous rate matrix Q.
+Q := fnPoMoBalance4N(N, mu, phi, beta, B)
+
+## Setup branch lengths.
+for (i in 1:n_branches) {
+    bl[i] ~ dnExponential(10.0)
+    moves.append(mvScale(bl[i], weight = 6))
+}
+
+## Combine the branch lengths and tree topology into a phylogram.
+psi := treeAssembly(tree, bl)
+
+## Merge the tree and rate matrix into a phylogenetic CTMC distribution.
+sequences ~ dnPhyloCTMC(tree = psi, Q = Q, type = "NaturalNumbers")
+
+# Clamp our data to the phyloCTMC distribution.
+sequences.clamp(data)
+
+## Assemble all nodes into a model.
+mymodel = model(Q)
+print("\nFinished building model")
+
+## Setup output paths.
+output_dir <- "output/" + outname + "/"
+model_path <- output_dir + outname + ".log"
+tree_path <- output_dir + outname + ".trees"
+
+## Setup monitors.
+monitors.append(mnModel(filename = model_path, printgen = 1))
+monitors.append(mnFile(filename = tree_path, printgen = 1, psi))
+monitors.append(mnScreen(printgen = 10))
+
+## Run the MCMC.
+print("\nRunning MCMC\n")
+
+n_burnin = 5000
+n_main = 25000
+n_chains = 4
+
+mcmc_handler = mcmc(mymodel, monitors, moves, nruns = n_chains, combine = "mixed")
+mcmc_handler.burnin(generations = n_burnin, tuningInterval = 200)
+mcmc_handler.run(generations = n_main)
+
+print("\nFinished MCMC\n")
+
+## Collate results and write final output.
+
+trace = readTreeTrace(tree_path, treetype = "non-clock", burnin = 0.2)
+
+tree_map_path = output_dir + outname + ".map.tree"
+tree_mcc_path = output_dir + outname + ".mcc.tree"
+
+mapTree(trace, file = tree_map_path)
+mccTree(trace, file = tree_mcc_path)
+
+print("\nDone...")
+
+# Quit once finished.
+q()
+
+```
