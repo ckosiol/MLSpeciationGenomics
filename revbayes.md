@@ -60,10 +60,75 @@ Note, you may use ./rb or the parallel version ./rb-mpi to speed up the calculat
 
 ### Going through the commands of the script in more detail
 
-We define the virtual population size and load the counts file similarly to a [PoMo](https://revbayes.github.io/tutorials/pomos/)
+We define load the counts file, define the virtual population size similarly to a [PoMo](https://revbayes.github.io/tutorials/pomos/) and the number of branches on the phylogeny
 ```
-n_branches <- 4
+data <- readCharacterDataDelimited("HLA_A_1.txt", stateLabels=58, type="NaturalNumbers", delimiter=" ", header=FALSE)
 N <- 10
 ```
+Next, we will specify the number of branches.
 
+```
+n_branches <- 4
+```
+
+Also variable to store moves and monitors for our analysis. You can add multiple kinds of moves into this variable and better explore the parameter space with MCMC, to avoid local minima and correlation between the moves. Monitors are for tracking MCMC analysis.
+
+```
+moves = VectorMoves()  
+monitors = VectorMonitors()
+```
+
+### Setting up the model
+PoMoBalance is defined with instantaneous-rate matrix, Q with population size N, allele frequencies pi, exchangeabilities rho (in the non-reversible case combined into mutations mu), and allele fitnesses phi. Frequencies must sum up to unity, thus, pi is initialised with Dirichlet distribution and the move is mvBetaSimplex
+
+
+```
+# allele frequencies
+pi_prior <- [0.25,0.25,0.25,0.25]
+pi ~ dnDirichlet(pi_prior)
+moves.append( mvBetaSimplex(pi, weight=2) )
+```
+The rho and phi parameters must be positive real numbers and a natural choice for their prior distributions is the exponential distribution and the standard moves mvScale. Let’s add an adaptive variance multivariate-normal proposal move that uses MCMC samples to fit covariance matrix to parameters called mvAVMVN to sigma to avoid correlation between GC-bias and balancing selection coefficients
+```
+## Setup rho exchangeability rates.
+for (i in 1:6){
+  rho[i] ~ dnExponential(10.0)
+  moves.append(mvScale(rho[i], weight = 3))
+}
+
+## Setup mu mutation rates. We have a rate for mutation between each pair of
+# different bases, and one for each direction. Thus, we have 4P2 = 12 rates.
+mu := [
+  pi[2]*rho[1], pi[1]*rho[1],
+  pi[3]*rho[2], pi[1]*rho[2],
+  pi[4]*rho[3], pi[1]*rho[3],
+  pi[3]*rho[4], pi[2]*rho[4],
+  pi[4]*rho[5], pi[2]*rho[5],
+  pi[4]*rho[6], pi[3]*rho[6]
+]
+
+# fitness coefficients
+sigma ~ dnExponential(1.0)
+moves.append(mvScale( sigma, weight=2 ))
+moves.append(mvAVMVN(sigma) )
+
+phi := [1.0,1.0+sigma,1.0+sigma,1.0]
+```
+The strength of balancing selection beta is also exponential. The preferred frequency B must be a discrete positive value between 0 and N. Here, we fix this to N/2 for our case since under our heterozygote advantage simulation, we expect balancing selection to drive the preferred frequency of each base to N/2.
+```
+## Setup beta balancing selection coefficients. These quantify the strength of
+# balancing selection.
+for (i in 1:6){
+  beta[i] ~ dnExponential(1.0)
+  moves.append(mvScale(beta[i], weight = 2))
+  
+}
+
+for (i in 1:6){
+  # N/2 = 5. We can't write N/2 directly since it causes the type of N to be
+  # inferred as a float instead of an integer, which causes issues later on.
+  # And for some reason there is no function to manually cast it back.
+  B[i] <- 5
+}
+```
 
