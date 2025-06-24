@@ -50,4 +50,20 @@ alignment <- counts_to_pomo_states_converter(count_file,n_alleles,N) # Create th
 writeLines(alignment,paste0("../data/", name, ".txt"))               # write the PoMo alignment
 ```
 
+We place the produced alignments inside the data folder. The output files follow the NaturalNumbers character type of RevBayes and can easily read by it.
+HLA_A_1.Rev file using an appropriate text editor so you can follow what each command is doing. Then run RevBayes:
+
+```
+./rb HLA_A_1.Rev
+```
+Note, you may use ./rb or the parallel version ./rb-mpi to speed up the calculations.
+
+### Going through the commands of the script in more detail
+
+We define the virtual population size and load the counts file similarly to a [PoMo](https://revbayes.github.io/tutorials/pomos/)
+```
+n_branches <- 4
+N <- 10
+```
+
 
