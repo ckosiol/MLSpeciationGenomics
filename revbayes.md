@@ -18,7 +18,7 @@ However, we will not be using the standard revbayes branch for this workshop, bu
 ```
  git clone https://github.com/revbayes/revbayes.git revbayes
 ```
-
+          
 by this one:
 
 ```
@@ -162,7 +162,7 @@ sequences.clamp(data)
 mymodel = model(Q)
 print("\nFinished building model")
 ```
-##Setting, running, and summarising the MCMC simulation
+###Setting, running, and summarising the MCMC simulation
 ```
 ## Setup output paths.
 output_dir <- "output/" + outname + "/"
@@ -202,4 +202,4 @@ print("\nDone...")
 # Quit once finished.
 q()
 ```
-```
+
