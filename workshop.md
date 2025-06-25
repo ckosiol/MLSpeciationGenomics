@@ -24,7 +24,7 @@ This workshop uses Bait-ER. You can find instructions on how to install the soft
 
 * **PoMoBalance**<br/>
 For this workshop, we will be using the ```development``` RevBayes branch, where the polymorphism-aware models are all available. Make sure you follow these [instructions](revbayes.md) to install RevBayes. Please do not use conda to install RevBayes.  <br/>
-[&#8600;Workshop 5. PoMo Balance and RevBayes](https://revbayes.github.io/tutorials/pomobalance/)<br/>
+[&#8600;Workshop 5. PoMo Balance and RevBayes](revbayes.md)<br/>
 We will also need: <br/>
 * [Tracer](https://beast.community/tracer)
 * [FigTree](https://github.com/rambaut/figtree/releases)
