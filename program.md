@@ -21,7 +21,8 @@ Please find the Abstract booklet [here](https://github.com/ckosiol/MLSpeciationG
 |16:00-16:45| <span style="color:gray">&#9724;</span> Lecture  3: Svitlana Braichenko (University of Edinburgh): Phylogenomics meets Deep Learning|
 |16:00-16:45| <span style="color:gray">&#9724;</span> Lecture  3: Svitlana Braichenko (University of Edinburgh): Phylogenomics meets Deep Learning|
 |17:00-19:00| *Poster session: Bell Pettigrew Museum* |
-<br>
+
+<br/>
 
 ### **Thursday, 26th June 2025**
 
