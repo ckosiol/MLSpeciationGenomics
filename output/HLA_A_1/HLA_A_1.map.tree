@@ -1,0 +1,14 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=3;
+	Taxlabels
+		HLA-A_1_p0
+		HLA-A_1_p1
+		HLA-A_1_p2
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](HLA-A_1_p0[&index=1]:0.025419[&brlen_95%_HPD={0.016204,0.035592}],HLA-A_1_p1[&index=3]:0.017272[&brlen_95%_HPD={0.010692,0.024597}],HLA-A_1_p2[&index=2]:0.009674[&brlen_95%_HPD={0.005042,0.014677}])[&index=4,posterior=1.000000]:0.000000;
+End;

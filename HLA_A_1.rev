@@ -1,0 +1,147 @@
+## Model: HLA_A_1.rev
+
+# The model infers evolution of the human leukocyte antigen (HLA) locus.
+
+# Set seed for reproducibility.
+seed(727)
+outname <- "HLA_A_1"
+
+
+# Load data
+
+data <- readCharacterDataDelimited("HLA_A_1.txt", stateLabels=58, type="NaturalNumbers", delimiter=" ", header=FALSE)
+
+# Setup model parameters
+n_branches <- 4
+N <- 10
+
+# Configure MCMC moves and monitors
+moves = VectorMoves()  
+monitors = VectorMonitors()
+
+## Setup pi base frequencies.
+pi <- [0.25, 0.25, 0.25, 0.25]
+
+# Set starting value to be uniform to avoid harsh starting conditions for the
+# chains.
+
+
+## Setup rho exchangeability rates.
+for (i in 1:6){
+  rho[i] ~ dnExponential(10.0)
+  moves.append(mvScale(rho[i], weight = 3))
+}
+
+## Setup mu mutation rates. We have a rate for mutation between each pair of
+# different bases, and one for each direction. Thus, we have 4P2 = 12 rates.
+mu := [
+  pi[2]*rho[1], pi[1]*rho[1],
+  pi[3]*rho[2], pi[1]*rho[2],
+  pi[4]*rho[3], pi[1]*rho[3],
+  pi[3]*rho[4], pi[2]*rho[4],
+  pi[4]*rho[5], pi[2]*rho[5],
+  pi[4]*rho[6], pi[3]*rho[6]
+]
+
+## Setup sigma selection coefficient. In this case, sigma is intended to measure
+# the strength of GC bias. See phi values below for the definition of actual
+# base fitnesses.
+sigma ~ dnExponential(10.0)
+
+moves.append(mvScale(sigma, weight = 6))
+
+# This extra move helps to prevent correlation between sigma and beta during
+# inference.
+moves.append(mvAVMVN(sigma))
+
+## Setup phi base fitnesses. Since GC bias is the only form of directional 
+# selection we are expecting to encounter (as this is the only form we
+# simulated), we only expect the G and C bases to have fitnesses other than one.
+phi := [1.0, 1.0 + sigma, 1.0 + sigma, 1.0]
+
+## Setup beta balancing selection coefficients. These quantify the strength of
+# balancing selection.
+for (i in 1:6){
+  beta[i] ~ dnExponential(1.0)
+  moves.append(mvScale(beta[i], weight = 2))
+  
+}
+
+## Setup B preferred frequencies. We fix this to N/2 for our case since under
+# our heterozygote advantage simulation, we expect balancing selection to drive
+# the preferred frequency of each base to N/2. We still set the preferred 
+# frequencies as N/2 in the absence of balancing selection so we can still
+# compare the inference results.
+for (i in 1:6){
+  # N/2 = 5. We can't write N/2 directly since it causes the type of N to be
+  # inferred as a float instead of an integer, which causes issues later on.
+  # And for some reason there is no function to manually cast it back.
+  B[i] <- 5
+}
+
+## Load in fixed tree. This tree has a fixed topology, but we will still later
+# infer the branch lengths. You can infer tree topology if you wish, although
+# this is probably best done with PoMoSelect. We need not do that here since our 
+# tree topology is so simple (and known since we wrote the simulations) it can
+# be built by hand.
+tree <- readBranchLengthTrees("base_tree.nwk")[1]
+
+## Setup the instantaneous rate matrix Q.
+Q := fnPoMoBalance4N(N, mu, phi, beta, B)
+
+## Setup branch lengths.
+for (i in 1:n_branches) {
+    bl[i] ~ dnExponential(10.0)
+    moves.append(mvScale(bl[i], weight = 6))
+}
+
+## Combine the branch lengths and tree topology into a phylogram.
+psi := treeAssembly(tree, bl)
+
+## Merge the tree and rate matrix into a phylogenetic CTMC distribution.
+sequences ~ dnPhyloCTMC(tree = psi, Q = Q, type = "NaturalNumbers")
+
+# Clamp our data to the phyloCTMC distribution.
+sequences.clamp(data)
+
+## Assemble all nodes into a model.
+mymodel = model(Q)
+print("\nFinished building model")
+
+## Setup output paths.
+output_dir <- "output/" + outname + "/"
+model_path <- output_dir + outname + ".log"
+tree_path <- output_dir + outname + ".trees"
+
+## Setup monitors.
+monitors.append(mnModel(filename = model_path, printgen = 1))
+monitors.append(mnFile(filename = tree_path, printgen = 1, psi))
+monitors.append(mnScreen(printgen = 10))
+
+## Run the MCMC.
+print("\nRunning MCMC\n")
+
+n_burnin = 5000
+n_main = 25000
+n_chains = 4
+
+mcmc_handler = mcmc(mymodel, monitors, moves, nruns = n_chains, combine = "mixed")
+mcmc_handler.burnin(generations = n_burnin, tuningInterval = 200)
+mcmc_handler.run(generations = n_main)
+
+print("\nFinished MCMC\n")
+
+## Collate results and write final output.
+
+trace = readTreeTrace(tree_path, treetype = "non-clock", burnin = 0.2)
+
+tree_map_path = output_dir + outname + ".map.tree"
+tree_mcc_path = output_dir + outname + ".mcc.tree"
+
+mapTree(trace, file = tree_map_path)
+mccTree(trace, file = tree_mcc_path)
+
+print("\nDone...")
+
+# Quit once finished.
+q()
