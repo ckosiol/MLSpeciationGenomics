@@ -30,7 +30,7 @@ Please install python environment specified in the environment-ML-St-Andrews.yml
 conda env create -f environment-ML-St-Andrews.yml<br/>
 
 
-[&#8600;Workshop 4. PhyloDeep Project](https://github.com/ckosiol/MLSpeciationGenomics/blob/main/Workshop4_DeepBLUEs_Antonio_Nick.pdf))<br/>
+[&#8600;Workshop 4. PhyloDeep Project](https://github.com/ckosiol/MLSpeciationGenomics/blob/main/Workshop4_DeepBLUEs_Antonio_Nick.pdf)<br/>
 
 * **PoMoBalance**<br/>
 For this workshop, we will be using the ```development``` RevBayes branch, where the polymorphism-aware models are all available. Make sure you follow these [instructions](revbayes.md) to install RevBayes. Please do not use conda to install RevBayes.  <br/>
