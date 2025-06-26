@@ -16,10 +16,20 @@ Before the course starts, please install the following software on your own comp
 * **Museums Genomics**<br/>
 [&#8600;Workshop 1. Museomics](https://github.com/capoony/MuseomicsWorkshop2025)<br/>
 
-* **Machine Learning**<br/>
+* **Experimental Evolution**<br/>
 [&#8600;Workshop 2. Detecting Targets of Selection in Experimental Evolution](https://github.com/diogo-s-ribeiro/DetectingSelection2025)<br/>
 This workshop uses Bait-ER. You can find instructions on how to install the software [here](https://github.com/mrborges23/Bait-ER)<br/>
+
+* **Machine Learning**<br/>
 [&#8600;Workshop 3. Machine learning topics in sequence analyses](https://github.com/ckosiol/MLSpeciationGenomics/blob/main/Workshop_ML_Introduction.pdf)<br/>
+Please download the data and install the environments from the following links.<br/>
+[&#8600;https://github.com/cmayer/ML-course_Iris-dataset-Dense-NN](https://github.com/cmayer/ML-course_Iris-dataset-Dense-NN)<br/>
+[&#8600;https://github.com/KulyaNikita/Machine-Learning-Phylogenomics-Workshop-St-Andrews](https://github.com/KulyaNikita/Machine-Learning-Phylogenomics-Workshop-St-Andrews)<br/>
+[&#8600;https://github.com/parsec3/Machine-Learning-for-Alignments-and-Phylogenomics-Workshop-St-Andrews](https://github.com/parsec3/Machine-Learning-for-Alignments-and-Phylogenomics-Workshop-St-Andrews)<br/>
+Please install python environment specified in the environment-ML-St-Andrews.yml file, e.g. using<br/>
+conda env create -f environment-ML-St-Andrews.yml<br/>
+
+
 [&#8600;Workshop 4. PhyloDeep Project](https://github.com/ckosiol/MLSpeciationGenomics/blob/main/WorkshopDeepBLUEs_Slides_affp1_npb3.pdf)<br/>
 
 * **PoMoBalance**<br/>
